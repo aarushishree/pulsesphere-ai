@@ -112,3 +112,4 @@ export function InsightsDashboard({ articles }) {
     </section>
   );
 }
+// Insights dashboard with all charts
