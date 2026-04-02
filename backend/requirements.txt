@@ -1,0 +1,13 @@
+fastapi==0.110.1
+uvicorn==0.25.0
+python-dotenv>=1.0.1
+pydantic>=2.6.4
+requests>=2.31.0
+
+# Vector Database (lightweight — no GPU needed)
+chromadb>=0.5.0
+
+# Optional: uncomment for neural summarization (downloads ~1.6 GB BART model on first use)
+# transformers>=4.40.0
+# torch  --index-url https://download.pytorch.org/whl/cpu
+# sentencepiece>=0.2.0

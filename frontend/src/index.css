@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Manrope:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+code {
+    font-family:
+        source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+@layer base {
+    :root {
+        --background: 0 0% 100%;
+        --foreground: 353 20% 15%;
+        --card: 0 0% 100%;
+        --card-foreground: 353 20% 15%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 353 20% 15%;
+        --primary: 353 42% 32%;--primary-foreground: 0 0% 100%;
+        --secondary: 353 20% 96%;
+        --secondary-foreground: 353 42% 32%;
+        --muted: 353 20% 96%;
+        --muted-foreground: 353 10% 45%;
+        --accent: 353 20% 96%;
+        --accent-foreground: 353 42% 32%;
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 353 15% 90%;
+        --input: 353 15% 90%;
+        --ring: 353 42% 32%;
+        --radius: 0.5rem;
+    }
+    .dark {
+        --background: 353 25% 6%;
+        --foreground: 353 10% 90%;
+        --card: 353 20% 9%;
+        --card-foreground: 353 10% 90%;
+        --popover: 353 20% 9%;
+        --popover-foreground: 353 10% 90%;
+        --primary: 353 42% 40%;
+        --primary-foreground: 0 0% 100%;
+        --secondary: 353 20% 12%;
+        --secondary-foreground: 353 42% 40%;
+        --muted: 353 20% 12%;
+        --muted-foreground: 353 10% 60%;
+        --accent: 353 20% 12%;
+        --accent-foreground: 353 42% 40%;
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 353 20% 15%;
+        --input: 353 20% 15%;
+        --ring: 353 42% 40%;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+    body {
+        @apply bg-background text-foreground;
+    }
+}
+
+
