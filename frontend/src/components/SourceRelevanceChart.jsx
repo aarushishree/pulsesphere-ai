@@ -104,3 +104,4 @@ export function SourceRelevanceChart({ articles }) {
     </ResponsiveContainer>
   );
 }
+// Source Relevance horizontal bar chart
