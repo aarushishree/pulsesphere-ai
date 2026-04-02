@@ -69,3 +69,4 @@ export function TrendChart({ articles }) {
     </ResponsiveContainer>
   );
 }
+// News trend area chart over time
