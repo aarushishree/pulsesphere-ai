@@ -85,3 +85,4 @@ Browser
 Uses recharts for charts
 ## Deployment
 Deploy frontend on Vercel
+## Features
