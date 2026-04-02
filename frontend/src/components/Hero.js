@@ -21,4 +21,4 @@ export function Hero() {
       </div>
     </div>
   );
-}
+}// Hero banner section
