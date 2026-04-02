@@ -84,3 +84,4 @@ def search_news(query: str) -> List[NewsArticle]:
     except Exception as e:
         print(f"[news_service] Search error: {e}")
         return []
+# GNews API with ChromaDB auto-indexing
