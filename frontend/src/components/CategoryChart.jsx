@@ -70,3 +70,4 @@ export function CategoryChart({ articles }) {
     </ResponsiveContainer>
   );
 }
+// Category distribution donut chart
