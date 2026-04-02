@@ -240,3 +240,4 @@ export function NewsFeed() {
     </section>
   );
 }
+// Live news feed with summarization
