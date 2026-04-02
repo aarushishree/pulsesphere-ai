@@ -28,4 +28,4 @@ export function CategoryTabs({ activeCategory, onCategoryChange }) {
       ))}
     </div>
   );
-}
+}// Category filter tabs
