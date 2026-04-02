@@ -27,4 +27,4 @@ export function NewsGrid({ articles, isLoading }) {
       ))}
     </div>
   );
-}
+}// Responsive news grid layout
