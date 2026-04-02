@@ -83,3 +83,4 @@ Browser
 ```
 ## Data Visualization
 Uses recharts for charts
+## Deployment
