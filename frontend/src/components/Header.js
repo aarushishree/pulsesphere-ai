@@ -25,4 +25,4 @@ export function Header({ searchValue, onSearchChange, onSearch }) {
       </div>
     </header>
   );
-}
+}// Sticky header with search
