@@ -187,3 +187,4 @@ def get_vector_db_count() -> int:
         return collection.count()
     except Exception:
         return 0
+# Local summarization with extractive fallback
