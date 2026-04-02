@@ -82,3 +82,4 @@ Browser
   └─ GET /api/vector-db/stats    → ChromaDB.count()
 ```
 ## Data Visualization
+Uses recharts for charts
