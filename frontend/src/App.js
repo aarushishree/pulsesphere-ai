@@ -122,3 +122,4 @@ function App() {
 }
 
 export default App;
+// Main app with insights section
