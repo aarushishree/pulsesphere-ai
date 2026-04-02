@@ -170,3 +170,4 @@ export function NewsCard({ article, index }) {
     </>
   );
 }
+// News card with summarize button
