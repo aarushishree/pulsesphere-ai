@@ -106,3 +106,4 @@ export function getSourceRelevanceScores(articles) {
     .sort((a, b) => b.score - a.score) // highest score at top
     .slice(0, 10); // cap at 10 sources
 }
+// Chart data processing utilities
